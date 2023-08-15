@@ -37,7 +37,17 @@ void FindThirdDigit(int number)
 }
 
 
+// Вариант из эталонного решения:
+// методом bool отсекаются двух- и однозначные числа, а третье число находится следующим методом:
 
+// int GetThirdRank(int number)
+// {
+//     while(number > 999)
+//     {
+//         number /= 10;
+//     }
+//     return number % 10;
+// }
 
 
 
